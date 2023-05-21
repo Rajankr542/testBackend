@@ -1,2 +1,3 @@
 const validations = require('./catchValidationError');
-module.exports = {...validations}
+const auth = require('./auth');
+module.exports = {...validations, ...auth}

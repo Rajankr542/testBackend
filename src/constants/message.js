@@ -14,7 +14,10 @@ const MESSAGE_CONSTANTS = Object.freeze({
       'Account has been deactivated, please contact admin.',
     SUCCESSFULLY_LOGIN: 'user successfully login',
     USER_CREATED: 'user created successfully',
-    USER_NOT_FOUND: 'user not found'
+    USER_NOT_FOUND: 'user not found',
+    AUTHENTICATION_TOKEN_MISSING: 'Token is missing',
+    INVALID_AUTH_TOKEN: 'invalid Auth',
+    REPORT_FETCHED: 'Report fetched successfully'
   });
   
 module.exports = {
